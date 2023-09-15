@@ -1,0 +1,217 @@
+.PromoAds-bg-container {
+  background-color: #f8f4f4;
+  display: flex;
+  justify-content: space-between;
+  /* Adjust alignment as needed */
+  align-items: center;
+  /* Center vertically */
+  padding: 20px;
+  /* Add padding as needed */
+  background-color: #f8f4f4;
+  font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+.PromoAds-left-content {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.PromoAds-right-content {
+  padding-right: 150px;
+  padding-top: 70px;
+}
+
+.PromoAds-text-block1 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.PromoAds-text-block2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.PromoAds-arrow-block p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.PromoAds-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-top: 20px; */
+  background-color: #f8f4f4;
+}
+
+.PromoAds-button1,
+.PromoAds-button2 {
+  padding: 20px 30px;
+  /* Adjust padding to make buttons bigger */
+  font-size: 14px;
+  background-color: #f8f4f4;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add box shadow */
+  color: black;
+}
+
+.PromoAds-button1 {
+  margin-left: 11%;
+}
+
+.PromoAds-button1.clicked {
+  background-color: #ffffff;
+}
+
+
+.PromoAds-button2.clicked {
+  background-color: #ffffff;
+}
+
+
+
+/* promoAds Images section */
+
+
+.PromoAds-images-container {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 50px; */
+  /* Adjust margin as needed */
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #f8f4f4;
+}
+
+/* Add styles for each image */
+.PromoAds-image1 {
+  margin-left: 270px;
+  /* Adjust the left margin for Image 1 */
+}
+
+
+.PromoAds-image3 {
+  margin-right: 270px;
+  /* Adjust the right margin for Image 3 */
+}
+
+.Promo-Ads-text-overlay1 {
+  position: absolute;
+  top: 90%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Adjust text color */
+  padding: 10px;
+  /* Adjust padding as needed */
+  font-size: 18px;
+  /* Adjust text size */
+}
+
+.Promo-Ads-text-overlay2 {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Adjust text color */
+  padding: 10px;
+  /* Adjust padding as needed */
+  font-size: 18px;
+  /* Adjust text size */
+}
+
+.Promo-Ads-text-overlay3 {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Adjust text color */
+  padding: 10px;
+  /* Adjust padding as needed */
+  font-size: 18px;
+  /* Adjust text size */
+}
+
+.PromoAds-image-container {
+  position: relative;
+  text-align: center;
+  /* Center text horizontally */
+}
+
+
+.Promo-Ads-text-Upper1 {
+  position: absolute;
+  top: 80%;
+  left: 54%;
+  color: #ffffff;
+}
+
+.Promo-Ads-text-Upper2 {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  color: #ffffff;
+}
+
+.Promo-Ads-text-Upper3 {
+  position: absolute;
+  top: 80%;
+  left: 6%;
+  color: #ffffff;
+}
+
+
+.Promo-Ads-Icon1 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+
+.Promo-Ads-Icon2 {
+  position: absolute;
+  top: 80%;
+  left: 3%;
+}
+
+.Promo-Ads-Icon3 {
+  position: absolute;
+  top: 80%;
+  left: 2%;
+}
+
+.Price-Icon {
+  color: #ffffff;
+}
+
+.Like-Icon1 {
+  position: absolute;
+  top: 7%;
+  left: 95%;
+
+}
+
+.Like-Icon2 {
+  position: absolute;
+  top: 7%;
+  left: 90%;
+}
+
+.Like-Icon3 {
+  position: absolute;
+  top: 7%;
+  left: 46%;
+}
+
+.Like-Icon-style {
+  color: white;
+}

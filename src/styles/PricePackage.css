@@ -1,0 +1,96 @@
+/* PricePackage.css */
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15%;
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  .packages {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 120%;
+    max-width: 100rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .package {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #333;
+    width: 90%;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  .package h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1px;
+    margin-top: 30px;
+  }
+  
+  .package--price {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .package--features {
+    margin-top: 30px;
+    padding-left: 0; /* Remove left padding */
+  list-style-type: none; /* Remove bullet points */
+  font-size: 14px;
+  }
+  
+  .package--features li {
+    margin-bottom: 10px;
+  }
+  
+  .package--buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 25px 75px;
+    height: 20px;
+    border: 1px solid #868686;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+    font-size: 14px;
+  }
+  
+  .package--buy:hover {
+    background-color: #868686;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    color: #fff;
+  }
+  
+  .custom-price {
+    font-size: 2rem; 
+  } 
+  

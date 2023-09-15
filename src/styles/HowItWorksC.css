@@ -1,0 +1,166 @@
+/* HowItWorksC.css */
+
+.HowItWorks-bg-image-container {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.HowItWorks-bg-image {
+    width: 100%;
+    height: auto;
+    /* Ensures the image maintains its aspect ratio */
+    opacity: 1;
+    /* Adjust the opacity as needed */
+}
+
+.HowItWorks-Left-Content {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 20px;
+    /* Adjust the padding as needed */
+    color: black;
+    /* Text color */
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.HowItWorks-Right-Content {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    padding: 20px;
+    /* Adjust the padding as needed */
+    color: black;
+    /* Text color */
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Additional styles for text content */
+.HowItWorks-text-content1 p,
+.HowItWorks-text-content2 h2,
+.HowItWorks-text-content3 p {
+    margin: 0;
+    padding: 0;
+}
+
+.HowItWorks-text-content1 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.HowItWorks-text-content2 h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.HowItWorks-arrow {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+    /* Adjust the margin as needed */
+}
+
+
+/* HowItWorksC.css */
+
+.HowItWorks-Image-grid-parent {
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image grid */
+    display: flex;
+    justify-content: space-around; /* Adjust the alignment as needed */
+    align-items: center; /* Vertically center images */
+    padding: 20px; /* Adjust the padding as needed */
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  .HowItWorks-Image-grid1 {
+    padding: 0px; /* Adjust the padding between images as needed */
+    text-align: center;
+  }
+  
+  .Hiw1-img,
+  .Hiw2-img,
+  .Hiw3-img,
+  .Hiw4-img {
+    height: auto; /* Ensure images maintain their aspect ratio */
+  }
+
+  .Hiw1-img{
+    margin-right: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+
+  .Hiw2-img{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+
+  .Hiw3-img{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+
+  .Hiw4-img{
+    margin-left: 30px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+
+  .Hiw-Image-container {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 110px; /* Adjust the padding as needed */
+    background-color: white; /* White background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    margin: 0 10px; /* Adjust the margin between image containers */
+}
+
+.Hiw-Image-text {
+    position: absolute;
+    top: 80%; /* Adjust vertically as needed */
+    left: 50%; /* Adjust horizontally as needed */
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 80%;
+}
+
+.Hiw-Image-text h2 {
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: 600; /* Adjust the font weight as needed */
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        margin-bottom: 7px;
+}
+
+.Hiw-Image-text p {
+    font-size: 15px; /* Adjust the font size as needed */
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.Image-Label{
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        color: #efefef;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 20px;
+}
+

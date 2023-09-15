@@ -1,0 +1,110 @@
+/* CategoriesC.css */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Adjusted to align items to the top */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.left-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 200px;
+  padding-top: 70px;
+}
+
+.text-block p {
+  font-size: 14px;
+  font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text-block h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.arrow-block p {
+  font-size: 14px;
+  /* font-weight: 500; */
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+
+/* buttons */
+
+
+.Category-button-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 100px; /* Adjust padding as needed */
+  top: 120%;
+}
+
+.category-button {
+  background-color: hsla(0, 0%, 58.4%, 0.15);
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 0 solid;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(20% - 20px); /* To achieve equidistant spacing */
+  border: none;
+  position: relative;
+  height: 400px; /* Set a fixed height for all buttons */ 
+}
+
+.category-button span {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center precisely */
+  color: white;
+  top: 93%;
+  /* bottom: 80%;  */
+  left: 30%; /* Position at the left */
+}
+
+.category-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make the image cover the entire button */
+}
+
+
